@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-// import 'views/home_view.dart';
+import 'views/home_view.dart';
 
 void main() {
   runApp(ProviderScope(child: MyApp()));
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Campsites',
       theme: ThemeData(primarySwatch: Colors.green),
-      // home: HomeView(),
+      home: HomeView(),
     );
   }
 }
