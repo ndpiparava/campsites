@@ -3,6 +3,9 @@
         android:label="flutter_campsite_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA9ZwRBu0O2RUwb2mmJ0hHLEkstArTsAR0" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
