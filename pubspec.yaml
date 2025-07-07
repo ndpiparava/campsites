@@ -1,0 +1,27 @@
+
+name: flutter_campsite_app
+description: A simple Flutter app to list and filter campsites.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  http: ^0.13.5
+  cached_network_image: ^3.3.1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.0
+  build_runner: ^2.4.7
+  flutter_lints: ^3.0.1
+  network_image_mock: ^2.0.0
+  mocktail_image_network: ^1.0.0
+
+flutter:
+  uses-material-design: true
